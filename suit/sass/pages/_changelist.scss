@@ -46,7 +46,7 @@ $filter-col-width: 15rem;
         }
       }
       .small {
-        font-size: $font-size-sm;
+        font-size: $small-font-size;
       }
     }
   }
@@ -56,7 +56,7 @@ $filter-col-width: 15rem;
     //position: absolute;
     top: 0;
     right: 0;
-    font-size: $font-size-sm;
+    font-size: $small-font-size;
     h2 {
       margin-bottom: $grid-gutter-width-base/2;
       display: none;
@@ -64,7 +64,7 @@ $filter-col-width: 15rem;
     h3 {
       background-color: $inverse-lightest;
       color: #fff;
-      font-size: $font-size-sm;
+      font-size: $small-font-size;
       font-weight: normal;
       padding: $grid-gutter-width-base/4 $grid-gutter-width-base/3;
       margin: 0;
@@ -98,7 +98,7 @@ $filter-col-width: 15rem;
     flex: 1;
     .actions {
       margin: -.5rem 0 1rem 0;
-      font-size: $font-size-sm;
+      font-size: $small-font-size;
       align-items: baseline;
       &[style*='block'] {
         display: flex !important;
@@ -142,7 +142,7 @@ $filter-col-width: 15rem;
 
     .paginator {
       margin-top: 1rem;
-      font-size: $font-size-sm;
+      font-size: $small-font-size;
       a:not(.showall), span {
         font-size: 1rem;
         display: inline-block;

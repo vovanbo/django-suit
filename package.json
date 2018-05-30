@@ -3,11 +3,27 @@
   "version": "2.0.0",
   "description": "Django Suit development tools",
   "author": "Kaspars Sprogis",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "yarn clean && broccoli build suit",
+    "serve": "broccoli serve",
+    "debug-build": "yarn clean && node $NODE_DEBUG_OPTION $(which broccoli) build dist",
+    "debug-serve": "node $NODE_DEBUG_OPTION $(which broccoli) serve"
+  },
   "devDependencies": {
+    "autosize": "^4.0.2",
+    "bootstrap": "^4.1.1",
+    "broccoli": "^1.1.4",
+    "broccoli-merge-trees": "^3.0.0",
+    "broccoli-sass-source-maps": "^2.2.0",
+    "broccoli-source": "^1.1.0",
     "browser-sync": "^2.17.1",
+    "font-awesome": "4.7.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-plumber": "^1.0.1",
-    "gulp-sass": "^2.3.2"
-  }
+    "gulp-sass": "^2.3.2",
+    "npm-sass": "^2.2.3"
+  },
+  "dependencies": {}
 }

@@ -15,7 +15,7 @@ $tr-odd-hover-bg-color: darken($tr-odd-bg-color, 6%);
         box-shadow: inset 1px 0 0 rgba(255, 255, 255, .2);
         font-weight: normal;
         background-color: $inverse-lightest;
-        color: $gray-lighter;
+        color: $gray-light;
         padding: 0;
         position: relative;
         line-height: normal;
@@ -71,7 +71,7 @@ $tr-odd-hover-bg-color: darken($tr-odd-bg-color, 6%);
           }
         }
         a {
-          color: $gray-lighter;
+          color: $gray-light;
           display: block;
         }
       }
@@ -136,41 +136,41 @@ $tr-odd-hover-bg-color: darken($tr-odd-bg-color, 6%);
       }
       &.table-danger {
         > td, > th {
-          border-bottom: 1px solid $state-danger-border;
+          border-bottom: 1px solid $danger;
         }
       }
       &.table-warning {
         > td, > th {
-          border-bottom: 1px solid $state-warning-border;
+          border-bottom: 1px solid $warning;
         }
       }
       &.table-info {
         > td, > th {
-          border-bottom: 1px solid $state-info-border;
+          border-bottom: 1px solid $info;
         }
       }
       &.table-success {
         > td, > th {
-          border-bottom: 1px solid $state-success-border;
+          border-bottom: 1px solid $success;
         }
       }
       // Per cell styling
       th, td {
         &.table-danger {
-          background-color: $state-danger-bg;
-          border-bottom: 1px solid $state-danger-border;
+          background-color: $danger;
+          border-bottom: 1px solid $danger;
         }
         &.table-warning {
-          background-color: $state-warning-bg;
-          border-bottom: 1px solid $state-warning-border;
+          background-color: $warning;
+          border-bottom: 1px solid $warning;
         }
         &.table-info {
-          background-color: $state-info-bg;
-          border-bottom: 1px solid $state-info-border;
+          background-color: $info;
+          border-bottom: 1px solid $info;
         }
         &.table-success {
-          background-color: $state-success-bg;
-          border-bottom: 1px solid $state-success-border;
+          background-color: $success;
+          border-bottom: 1px solid $success;
         }
       }
     }

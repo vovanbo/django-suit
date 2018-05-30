@@ -57,7 +57,7 @@ body.login {
   .errorlist {
     @include reset-list();
     margin: -.5rem $spacing/2 $spacing;
-    color: $alert-danger-text;
+    color: $danger;
   }
   .form-row {
     input:not([type='hidden']) {
@@ -71,7 +71,7 @@ body.login {
     }
     &.has-danger {
       input:not([type='hidden']) {
-        border-color: $alert-danger-text;
+        border-color: $danger;
       }
     }
   }

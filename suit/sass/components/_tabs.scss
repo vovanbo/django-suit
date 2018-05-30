@@ -26,7 +26,7 @@
     }
     &.has-error {
       &, &.active, &:focus {
-        color: $state-danger-text;
+        color: $danger;
       }
     }
   }

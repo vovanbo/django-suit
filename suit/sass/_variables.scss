@@ -3,11 +3,9 @@
 $enable-flex: true;
 
 // Colors
-$brand-primary: #279bee;
 $brand-primary: #4298DE;
 $brand-success: #4ACB68;
 $brand-danger: #E04F3C;
-$brand-warning: #F1C40F;
 $brand-warning: #F3C544;
 $link-color-brighter: #279bee;
 $link-color-bright: darken($link-color-brighter, 10%);
@@ -25,31 +23,25 @@ $header-color: #fff;
 $header-muted-color: lighten($header-bg, 30%);
 
 // Import all Bootstrap variables
-@import "../../bower_components/bootstrap/scss/variables";
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
 
 
 // Typography
 // --------------------------------------------------
-$font-size-h1: 1.714rem;
-$font-size-h2: 1.571rem;
-$font-size-h3: 1.429rem;
-$font-size-h4: 1.286rem;
-$font-size-h5: 1.143rem;
-$font-size-h6: 1rem;
-$font-size-sm: .929rem;
-$font-size-xs: .857rem;
+$font-size-xs: $font-size-base * 0.857;
 
 $font-size-root: 14px;
 $font-family-sans-serif: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $font-family-base: $font-family-sans-serif;
 $headings-font-weight: 500;
-$font-size-lg: $font-size-h5;
+$font-size-lg: $h5-font-size;
 
 // http://pxtoem.com/
 
 // Suit
 // --------------------------------------------------
-$gray-light: lighten($gray-light, 10%);
+$gray-light: lighten(gray, 10%);
 $text-muted: $gray-light;
 $sidebar-width: 200px;
 $grid-gutter-width-base: 1.875rem;
@@ -106,4 +98,4 @@ $card-cap-color: #fff;
 // Blockquotes
 // --------------------------------------------------
 $blockquote-font-size: $font-size-base;
-$blockquote-border-color: darken($gray-lighter, 10%);
+$blockquote-border-color: darken($gray-light, 10%);

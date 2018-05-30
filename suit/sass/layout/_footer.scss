@@ -24,8 +24,8 @@
 .footer {
   min-height: $footer-height;
   background-color: darken($body-bg, 5%);
-  color: $gray;
-  font-size: $font-size-sm;
+  color: $dark;
+  font-size: $small-font-size;
   > .container-fluid {
     padding: 1rem $grid-gutter-width-base;
     > .row {

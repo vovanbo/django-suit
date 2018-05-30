@@ -22,7 +22,10 @@ var config = {
 gulp.task('styles', function () {
     return gulp.src(config.watchSassFiles)
         .pipe(plumber())
-        .pipe(sass({outputStyle: 'compact'})).on('error', sass.logError)
+        .pipe(sass({
+            outputStyle: 'compact',
+            importer: require('npm-sass').importer
+        })).on('error', sass.logError)
         .pipe(autoprefixer({browsers: ['last 2 version', '> 5%']}))
         .pipe(gulp.dest(config.cssOutputDir))
         .pipe(reload({stream: true}))

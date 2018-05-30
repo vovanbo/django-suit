@@ -21,7 +21,7 @@ fieldset {
     padding-right: 2rem;
   }
   > .description {
-    font-size: $font-size-sm;
+    font-size: $small-font-size;
     padding-top: .35rem;
     display: inline-block;
     @extend .text-muted;
@@ -101,7 +101,7 @@ fieldset {
   .form-row, .suit-form .form-group {
     clear: both;
     label {
-      font-size: $font-size-sm;
+      font-size: $small-font-size;
       &.required {
         &:after {
           content: '*';
@@ -252,7 +252,7 @@ fieldset {
     }
     h2 {
       display: block;
-      font-size: $font-size-h5;
+      font-size: $h5-font-size;
       font-weight: normal;
       margin: 0;
       padding: .5rem 1rem;

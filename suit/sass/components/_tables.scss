@@ -2,7 +2,7 @@
   background-color: #fff;
 }
 .table-inverse {
-  color: $gray-lighter;
+  color: $gray-light;
   background-color: #fff;
   th,
   td,
@@ -27,7 +27,7 @@
 .thead-inverse {
   th {
     background-color: $inverse-lightest;
-    color: $gray-lighter;
+    color: $gray-light;
     font-weight: normal;
   }
 }

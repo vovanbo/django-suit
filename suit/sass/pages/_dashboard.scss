@@ -8,12 +8,12 @@ body.dashboard {
       caption {
         caption-side: inherit;
         font-weight: $headings-font-weight;
-        font-size: $font-size-h4;
+        font-size: $h4-font-size;
         padding: 0;
       }
       tr {
         td, th {
-          font-size: $font-size-sm;
+          font-size: $small-font-size;
           padding: $table-cell-padding;
           background-color: lighten($body-bg, 2%);
         }
@@ -33,7 +33,7 @@ body.dashboard {
       display: none;
     }
     h3 {
-      font-size: $font-size-h4;
+      font-size: $h4-font-size;
     }
     ul.actionlist {
       @include reset-list();
@@ -41,7 +41,7 @@ body.dashboard {
         background-color: lighten($body-bg, 2%);
         margin-bottom: 1px;
         padding: $table-cell-padding;
-        font-size: $font-size-sm;
+        font-size: $small-font-size;
         padding-left: 2.8rem;
         overflow: auto;
         position: relative;

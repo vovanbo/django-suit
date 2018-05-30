@@ -78,7 +78,7 @@ fieldset {
     display: inline-flex;
     a {
       white-space: nowrap;
-      font-size: $font-size-sm;
+      font-size: $small-font-size;
       &:first-child {
         margin-left: 3.15rem;
         margin-top: .45rem;
@@ -95,7 +95,7 @@ fieldset {
         //width: $icon-width;
         text-align: center;
         white-space: nowrap;
-        @extend .input-group-addon;
+        @extend .input-group-addon !optional;
         &:hover, &:focus {
           text-decoration: none;
           color: $link-color;
@@ -235,7 +235,7 @@ fieldset {
       td {
         padding: 0;
         text-align: center;
-        font-size: $font-size-sm;
+        font-size: $small-font-size;
         &.nonday {
           background-color: transparent;
         }
@@ -278,7 +278,7 @@ fieldset {
       }
       th {
         padding: .4rem 0 .3rem;
-        font-size: $font-size-sm;
+        font-size: $small-font-size;
         text-align: center;
       }
     }
@@ -287,7 +287,7 @@ fieldset {
     padding: .75rem 0;
     text-align: center;
     color: lighten($text-muted, 15%);
-    font-size: $font-size-sm;
+    font-size: $small-font-size;
     a {
       color: $link-color;
       padding: 0 .2rem;
@@ -313,7 +313,7 @@ fieldset {
         background-color: #fff;
         text-align: center;
         padding: .3rem 0;
-        font-size: $font-size-sm;
+        font-size: $small-font-size;
         &:hover {
           background-color: transparent;
           text-decoration: none;

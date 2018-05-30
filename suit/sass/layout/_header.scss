@@ -15,7 +15,7 @@ body.suit_layout_horizontal {
       flex-basis: map-get($grid-breakpoints, sm)/2;
     }
     .header-label {
-      font-size: $font-size-h1/2;
+      font-size: $h1-font-size/2;
       color: $header-muted-color;
       text-transform: uppercase;
       font-weight: normal;
@@ -24,7 +24,7 @@ body.suit_layout_horizontal {
       min-width: $sidebar-width;
       padding-left: $header-padding-horizontal;
       #site-name {
-        font-size: $font-size-h1;
+        font-size: $h1-font-size;
         a {
           display: inline-block;
           &:hover {
@@ -90,7 +90,7 @@ body.suit_layout_vertical {
       #site-name {
         margin: 0;
         font-weight: normal;
-        font-size: $font-size-h3;
+        font-size: $h3-font-size;
         line-height: $line-height-lg;
         text-align: center;
         a {
@@ -116,7 +116,7 @@ body.suit_layout_vertical {
       color: $header-color;
     }
     .header-label {
-      font-size: $font-size-h1/2;
+      font-size: $h1-font-size/2;
       color: $header-muted-color;
       text-transform: uppercase;
       font-weight: normal;
