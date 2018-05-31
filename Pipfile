@@ -4,12 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-Sphinx = "*"
-sphinx_rtd_theme = "*"
 Django = "<1.11"
 "Django-Select2" = "<6.0.0"
 
 [dev-packages]
+Sphinx = "*"
+sphinx_rtd_theme = "*"
 
 [requires]
 python_version = "3.6"
