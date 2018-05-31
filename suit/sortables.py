@@ -12,8 +12,8 @@ class SortableModelAdminBase(object):
     """
     sortable = 'order'
 
-    class Media:
-        js = ('suit/js/suit.sortables.js',)
+    # class Media:
+    #     js = ('suit/js/suit.sortables.min.js',)
 
 
 class SortableListForm(ModelForm):

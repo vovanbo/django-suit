@@ -119,7 +119,7 @@
     {% endif %}
 
 {#    {{ block.super }}#}
-    <script src="{% static "suit/js/suit.js" %}"></script>
+    <script src="{% static "suit/js/suit.min.js" %}"></script>
     {% if cl.formset or action_form and 'toggle_changelist_top_actions'|suit_conf:request %}
         <script type="text/javascript">
             Suit.ListActionsToggle.init();
